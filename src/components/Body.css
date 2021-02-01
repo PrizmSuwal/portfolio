@@ -3,6 +3,9 @@
   text-align: center;
 }
 
-img {
-  width: 70%;
+h4 {
+  font-family: 'Trebuchet MS', 'Lucinda Sans Unicode', 'Lucinda Grande',
+  'Lucinda Sans', Arial, sans-serif;
+  margin-bottom: 10px;
+  font-size: 28px;
 }

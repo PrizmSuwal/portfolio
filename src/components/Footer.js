@@ -1,20 +1,28 @@
 import './Footer.css';
 import React from 'react'
-
+import Animation from '../495px-Light_dispersion_conceptual_waves.gif';
 function Footer() {
   return (
     <div className='footer-container'>
-      <section className='footer-subscription'>
-        <div className= 'footer-quote'>
-          <span> Coming Soon </span>
+      <div className='footer-subscription'>
+        <div className='footer-logo'>
+          <img src={Animation} alt= 'Prism' />
         </div>
-        <div className='input-areas'>
-          <form>
-            <input type='email' name='email' placeholder='Your email' className='footer-input'/>
-            <button buttonStyle='btn--outline'>Send</button>
-          </form>
+        
+        <div className='footer-content'>
+          <div className= 'footer-quote'>
+            <span> Contact me </span>
+          </div>
+          <div className='input-areas'>
+            <form>
+              <input type='email' name='email' placeholder='Your email' className='footer-input'/>
+              <input type='email' name='text' placeholder='Your message' className='footer-input'/>
+              <button buttonStyle='btn--outline'>Send</button>
+            </form>
+          </div>
         </div>
-      </section>
+       
+      </div>
       <div className='social-media-wrap'>
         <div className='social-icons'>
           <a className='social-icon-link facebook'  aria-label='Facebook' href='https://www.facebook.com/suwal.prism/'><i class="fab fa-facebook fa-2x"></i></a>

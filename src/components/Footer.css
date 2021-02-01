@@ -1,5 +1,5 @@
 .footer-container{
-  background-color: 	#4f4f4f;
+  background-color: black;
   padding: 2rem 0 2rem 0;
   display: flex;
   flex-direction: column;
@@ -9,21 +9,27 @@
 
 .footer-subscription {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
   align-items: center;
-  text-align: center;
-  padding: 10px;
   color: #fff;
+}
+
+.footer-logo > img {
+  width: 120%;
+}
+
+.footer-content {
+  align-items: center;
+  text-align: left;
+  padding: 4rem;
 }
 
 .footer-quote {
   font-family: 'Trebuchet MS', 'Lucinda Sans Unicode', 'Lucinda Grande',
   'Lucinda Sans', Arial, sans-serif;
   color: #fff;
-  text-align: left;
-  margin-bottom: 24px;
-  font-size: 24px;
+  margin-bottom: 25px;
+  font-size: 18px;
 }
 
 .footer-input {
