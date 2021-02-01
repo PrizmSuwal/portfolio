@@ -6,7 +6,7 @@ function Body() {
   return (
     <div>
       <div className='content'>
-        <img src ={Animation} />
+        <img src ={Animation} alt='Under Construction' />
       </div>
     </div>
   )

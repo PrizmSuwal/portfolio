@@ -1,6 +1,5 @@
 import React from 'react'
 import logo from '../logo.png';
-import Animation from '../495px-Light_dispersion_conceptual_waves.gif'
 import './Navbar.css';
 
 function Navbar() {
