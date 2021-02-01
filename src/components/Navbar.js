@@ -1,5 +1,7 @@
 import React from 'react'
-import logo from '../triangle.png';
+import logo from '../logo.png';
+import Animation from '../495px-Light_dispersion_conceptual_waves.gif'
+import './Navbar.css';
 
 function Navbar() {
   return (
@@ -12,8 +14,8 @@ function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
-              <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#">Home</a>
+              <li className="nav-item" active>
+                <a className="nav-link" href="#">Home<span className='sr-only'>(current)</span></a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="">About me</a>

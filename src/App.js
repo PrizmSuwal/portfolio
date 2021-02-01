@@ -1,11 +1,15 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
-
+import Footer from './components/Footer';
+import Body from './components/Body';
 function App() {
   return (
-    <Navbar />
-    // <h2> Under Construction</h2>
+    <>
+      <Navbar />
+      <Body />
+      <Footer />
+    </>
   );
 }
 
