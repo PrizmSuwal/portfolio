@@ -9,19 +9,10 @@
 
 .footer-subscription {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   color: #fff;
-}
-
-.footer-logo > img {
-  width: 120%;
-}
-
-.footer-content {
-  align-items: center;
-  text-align: left;
-  padding: 4rem;
+  text-align: center;
 }
 
 .footer-quote {
@@ -30,6 +21,10 @@
   color: #fff;
   margin-bottom: 25px;
   font-size: 18px;
+}
+.input-areas{
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-input {

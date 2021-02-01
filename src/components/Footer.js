@@ -1,27 +1,18 @@
 import './Footer.css';
 import React from 'react'
-import Animation from '../495px-Light_dispersion_conceptual_waves.gif';
+
 function Footer() {
   return (
     <div className='footer-container'>
       <div className='footer-subscription'>
-        <div className='footer-logo'>
-          <img src={Animation} alt= 'Prism' />
-        </div>
-        
-        <div className='footer-content'>
-          <div className= 'footer-quote'>
-            <span> Contact me </span>
-          </div>
+        <span className='footer-quote'> Contact me </span>
           <div className='input-areas'>
             <form>
               <input type='email' name='email' placeholder='Your email' className='footer-input'/>
-              <input type='email' name='text' placeholder='Your message' className='footer-input'/>
-              <button buttonStyle='btn--outline'>Send</button>
+              <br></br><input type='email' name='text' placeholder='Your message' className='footer-input'/>
+              <br></br><button buttonStyle='btn--outline'>Send</button>
             </form>
-          </div>
-        </div>
-       
+          </div>       
       </div>
       <div className='social-media-wrap'>
         <div className='social-icons'>
