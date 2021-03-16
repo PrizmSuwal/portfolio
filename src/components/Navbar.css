@@ -38,3 +38,37 @@ nav ul li {
 .navbar-nav > li > a:hover {
   border-top: 0.1875rem solid black;
 }
+
+@media only screen and (min-width: 340px) and (max-width: 760px){	
+  .logo {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+
+  nav {
+    height: 3rem;
+  }
+
+  .navbar-brand {
+    margin-left: 1.5rem;
+  }
+
+  .navbar-nav > li > a {
+    text-align: center;
+    background-color: white;
+    border-top: 0.1rem solid  white;
+    margin: 0;
+  }
+
+  .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
+    border-top: 0.1rem solid #0abab5;
+  }
+
+  .navbar-nav > li > a:hover {
+    border-top: 0.1rem solid #0abab5;
+  }
+
+  .navbar-toggler {
+    border: none;
+  }
+}
