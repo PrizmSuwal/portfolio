@@ -1,15 +1,88 @@
 .content {
-  padding: 1rem;;
+  padding: 1rem 0;
   text-align: center;
 }
 
-img {
+.subContent {
+  margin-bottom: 3rem;
+}
+.subContent-Projects {
+  background-color:#fefefa;
+  padding: 2rem 0;
+  margin-bottom: 3rem;
+}
+
+.subContent-Technologies {
+  margin-bottom: 3rem;
+}
+
+.img-underConstruction {
   width: 50%;
+  margin: 2rem;
 }
 
 h4 {
   font-family: 'Trebuchet MS', 'Lucinda Sans Unicode', 'Lucinda Grande',
   'Lucinda Sans', Arial, sans-serif;
-  margin-bottom: 10px;
+  margin-bottom: 1.5rem;
+  font-size: 48px;
+}
+
+h6 {
+  font-family: 'Trebuchet MS', 'Lucinda Sans Unicode', 'Lucinda Grande',
+  'Lucinda Sans', Arial, sans-serif;
   font-size: 28px;
+}
+
+.projectLogo {
+  width: 20%;
+  margin: 0 3rem;
+}
+
+.projectLogoDeckdo {
+  width: 12%;
+  margin-top: 1.4rem;
+}
+
+.technologies {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 3rem;;
+}
+
+.img-technology {
+  width: 60%;
+  object-fit: cover;
+}
+
+@media only screen and (min-width: 240px) and (max-width: 760px){	
+  h4 {
+    font-size: 28px;
+  }
+
+  h6 {
+    font-size: 18px;
+    padding: 0 1rem;
+  }
+
+  .projectLogo {
+    width: 32%;
+    margin: 0 0.8rem;
+  }
+
+  .projectLogoDeckdo {
+    margin-top: 1rem;
+    width: 22%;
+  }
+
+  .technologies {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  }
+
+  .img-technology {
+    width: 50%;
+  }
 }
