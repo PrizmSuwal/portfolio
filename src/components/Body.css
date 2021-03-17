@@ -46,15 +46,36 @@ h6 {
 
 .technologies {
   display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+.technology-row-top {
+  display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  margin: 1rem;
   align-items: center;
-  margin-top: 3rem;;
 }
 
 .img-technology {
-  width: 60%;
-  object-fit: cover;
+  width: 70%;
+}
+
+.technology-row-bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 1rem;
+  justify-content: space-evenly;
+}
+
+.right {
+  width: 32%;
+  margin: 5rem;
+}
+
+.bottom {
+  width: 100%;
 }
 
 @media only screen and (min-width: 240px) and (max-width: 760px){	
@@ -68,21 +89,33 @@ h6 {
   }
 
   .projectLogo {
-    width: 32%;
+    width: 42%;
     margin: 0 0.8rem;
   }
 
   .projectLogoDeckdo {
     margin-top: 1rem;
-    width: 22%;
+    width: 32%;
   }
 
-  .technologies {
+  .technology-row-top {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    margin: 0;
+  }
+
+  .technology-row-bottom {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    margin: 0;
   }
 
   .img-technology {
-    width: 50%;
+    margin: 0.6rem;
+    width: 130px;
+  }
+
+  .right {
+    width: 94px;
   }
 }
