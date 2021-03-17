@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div className='footer-container'>
       <div className='footer-subscription'>
-        <span className='footer-quote'> Contact me </span>
+        <span className='footer-quote'> Get in Touch </span>
           <div className='input-areas'>
             <form>
               <input type='email' name='email' placeholder='Your email' className='footer-input'/>
