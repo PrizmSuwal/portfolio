@@ -55,6 +55,8 @@ h6 {
   flex-direction: row;
   margin: 1rem;
   align-items: center;
+  justify-content: space-evenly;
+
 }
 
 .img-technology {
@@ -70,8 +72,8 @@ h6 {
 }
 
 .right {
-  width: 32%;
-  margin: 5rem;
+  width: 30%;
+  margin: 0 6rem;
 }
 
 .bottom {
@@ -87,6 +89,9 @@ h6 {
     font-size: 18px;
     padding: 0 1rem;
   }
+  .technologies{
+    margin: 3rem 1.8rem;
+  }
 
   .projectLogo {
     width: 42%;
@@ -100,22 +105,22 @@ h6 {
 
   .technology-row-top {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     margin: 0;
   }
 
   .technology-row-bottom {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     margin: 0;
   }
 
   .img-technology {
     margin: 0.6rem;
-    width: 130px;
+    width: 94px;
   }
 
   .right {
-    width: 94px;
+    width: 70px;
   }
 }

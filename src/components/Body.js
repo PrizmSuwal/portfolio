@@ -29,13 +29,13 @@ function Body() {
                 <img className='img-technology right' src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/120px-CSS3_logo_and_wordmark.svg.png' alt='CSS'></img>
               </div>
               <div className='technologyImg'>
-                <img className='img-technology' src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/220px-Node.js_logo.svg.png' alt='NodeJS' ></img>
-              </div>
-              <div className='technologyImg'>
                 <img className='img-technology' src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K' alt='React JS'></img>
               </div>
               <div className='technologyImg'>
-                <img className='img-technology' src='https://upload.wikimedia.org/wikipedia/en/thumb/4/45/MongoDB-Logo.svg/375px-MongoDB-Logo.svg.png' alt='MongoDB'></img>
+                <img className='img-technology' src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/220px-Node.js_logo.svg.png' alt='NodeJS' ></img>
+              </div>
+              <div className='technologyImg'>
+                <img className='img-technology' src='https://webassets.mongodb.com/_com_assets/cms/mongodb_atlas-h0ai1yctwo.svg' alt='MongoDB'></img>
               </div>
               <div className='technologyImg'>
                 <img className='img-technology' src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Expressjs.png/330px-Expressjs.png' alt='Express JS'></img>
@@ -49,7 +49,7 @@ function Body() {
                 <img className='img-technology bottom' src='https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/150px-PHP-logo.svg.png' alt='PHP'></img>
               </div>
               <div className='technologyImg'>
-                <img className='img-technology' src='https://camo.githubusercontent.com/2eb688a747805c9acd144faf728c8a30f86fc4ca5fb39e6528232f0372151364/68747470733a2f2f63646e2e7261776769742e636f6d2f7075676a732f7075672d6c6f676f2f656563343336636565386664396431373236643738333963626539396431663639343639326330632f5356472f7075672d66696e616c2d6c6f676f2d5f2d636f6c6f75722d3132382e737667' alt='Pug JS'></img>
+                <img className='img-technology right' src='https://camo.githubusercontent.com/2eb688a747805c9acd144faf728c8a30f86fc4ca5fb39e6528232f0372151364/68747470733a2f2f63646e2e7261776769742e636f6d2f7075676a732f7075672d6c6f676f2f656563343336636565386664396431373236643738333963626539396431663639343639326330632f5356472f7075672d66696e616c2d6c6f676f2d5f2d636f6c6f75722d3132382e737667' alt='Pug JS'></img>
               </div>
               <div className='technologyImg'>
                 <img className='img-technology bottom' src='https://upload.wikimedia.org/wikipedia/en/thumb/e/ee/MySQL_Logo.png/104px-MySQL_Logo.png' alt='MySql'></img>
