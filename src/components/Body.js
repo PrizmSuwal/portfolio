@@ -7,9 +7,8 @@ function Body() {
     <div>
       <div className='content'>
         <div className='subContent'>
-          <h6>I am working hard, so hard that I am tired of sleeping. But I have exam going on, not that it matters but still.  </h6>
-          <img className='img-underConstruction' src ={Animation} alt='Under Construction' />
           <h6>Stay tuned</h6>
+          <img className='img-underConstruction' src ={Animation} alt='Under Construction' />
         </div>
         <div className='subContent-Projects'>
           <h4>Ongoing Projects</h4>
