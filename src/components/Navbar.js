@@ -4,7 +4,7 @@ import './Navbar.css';
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light">
+    <nav className="navbar navbar-expand-lg navbar-light sticky-top">
       <div className='container'>
         <div className="container-fluid">
           <a className="navbar-brand" href="/"><img className='logo' src={logo} alt='PRISM' /></a>
