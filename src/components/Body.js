@@ -39,8 +39,6 @@ function Body() {
               <div className='technologyImg'>
                 <i className="fab fa-react technologyIcon"></i>
               </div>
-            </div>
-            <div className='technology-row-bottom'>
               <div className='technologyImg'>
                 <img className='img-technology' src='https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/JQuery_logo.svg/330px-JQuery_logo.svg.png' alt='Jquery'></img>
               </div>
