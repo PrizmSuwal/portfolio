@@ -1,9 +1,15 @@
 import React from 'react'
+import '../Body.css';
+import Tilicho from '../../photos/tilicho.jpeg';
 
 function Aboutme() {
   return (
     <div id = 'about'>
-      <h6>Exploring the world</h6>
+      <div className='content'>
+        <img className='tilicho' src= {Tilicho} alt = 'Prism Suwal' />
+        <br></br>
+        <h6>My name is Prism Suwal. Please give me money. Thank you.</h6>
+      </div>
     </div>
   )
 }
