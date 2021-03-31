@@ -14,61 +14,71 @@ function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
-              <Link 
-                activeClass="active" 
-                to="home" 
-                spy={true} 
-                smooth={true} 
-                offset={0} 
-                duration={600}
-                delay={250}
-              > 
-                Home
-              </Link>
+              <li>
+                <Link 
+                  activeClass="active" 
+                  to="home" 
+                  spy={true} 
+                  smooth={true} 
+                  offset={0} 
+                  duration={600}
+                  delay={250}
+                > 
+                  Home
+                </Link>
+              </li>
+              
+              <li>
+                <Link 
+                  activeClass="active" 
+                  to="about" 
+                  spy={true} 
+                  smooth={true} 
+                  offset={0} 
+                  duration={500}
+                > 
+                  About me
+                </Link>
+              </li>
 
-              <Link 
-                activeClass="active" 
-                to="about" 
-                spy={true} 
-                smooth={true} 
-                offset={0} 
-                duration={500}
-              > 
-                About me
-              </Link>
+              <li>
+                <Link 
+                  activeClass="active" 
+                  to="projects" 
+                  spy={true} 
+                  smooth={true} 
+                  offset={0} 
+                  duration={500}
+                > 
+                  Projects
+                </Link>
+              </li>
+              
+              <li>
+                <Link 
+                  activeClass="active" 
+                  to="technologies" 
+                  spy={true} 
+                  smooth={true} 
+                  offset={0} 
+                  duration={500}
+                >
+                  Technologies
+                </Link>
+              </li>
 
-              <Link 
-                activeClass="active" 
-                to="projects" 
-                spy={true} 
-                smooth={true} 
-                offset={0} 
-                duration={500}
-              > 
-                Projects
-              </Link>
-
-              <Link 
-                activeClass="active" 
-                to="technologies" 
-                spy={true} 
-                smooth={true} 
-                offset={0} 
-                duration={500}
-              >
-                Technologies
-              </Link>
-
-              <Link 
-                activeClass="active" 
-                to="contactme" 
-                spy={true} 
-                smooth={true} 
-                offset={0} 
-                duration={500}
-              >
-                Contact me
-              </Link>
+              <li>
+                <Link 
+                  activeClass="active" 
+                  to="contactme" 
+                  spy={true} 
+                  smooth={true} 
+                  offset={0} 
+                  duration={500}
+                >
+                  Contact me
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
