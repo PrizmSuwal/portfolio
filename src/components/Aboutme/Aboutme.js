@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Body.css';
+import './Aboutme.css';
 import Tilicho from '../../photos/tilicho.jpeg';
 
 function Aboutme() {
