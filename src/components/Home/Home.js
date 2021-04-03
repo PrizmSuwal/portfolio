@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Body.css';
+import './Home.css';
 import Animation from '../../495px-Light_dispersion_conceptual_waves.gif';
 
 
