@@ -91,6 +91,30 @@ h4 {
 .tilicho {
   width: 50%;
 }
+
+.carousel{
+  background: #2f4357;
+  margin-top: 20px;
+}
+.carousel-item{
+  text-align: center;
+  min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+}
+
+.img-Aboutme {
+  width: 90%;
+  height: 607px;
+}
+
+.column3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.column3 img {
+  width: 33%;
+  padding: 1.8rem;
+}
 @media only screen and (min-width: 240px) and (max-width: 760px){	
   h6 {
     font-size: 24px;
