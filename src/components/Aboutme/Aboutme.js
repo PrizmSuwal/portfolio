@@ -2,15 +2,16 @@ import React from 'react'
 import './Aboutme.css';
 import Nepal from '../../photos/tilicho.jpeg';
 import Australia from '../../photos/Manly.jpg';
-import Me1 from '../../photos/Harbour.jpg';
-import Me2 from '../../photos/Laperouse.jpg';
-import Me3 from '../../photos/Patan.jpg';
+// import Me1 from '../../photos/Harbour.jpg';
+// import Me2 from '../../photos/Laperouse.jpg';
+// import Me3 from '../../photos/Patan.jpg';
 
 function Aboutme() {
   return (
     <div id = 'about'>
       <div className='content'>
-        <h6>My name is Prism Suwal. Please give me money. Thank you.</h6>
+        <h4>Prism Suwal</h4>
+        <h6>I am a freelancer. Thank you.</h6>
       </div>
       <div className="container-lg my-3">
         <div id="myCarousel" className="carousel slide" data-ride="carousel">
