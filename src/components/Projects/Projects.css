@@ -22,6 +22,11 @@ h6 {
   background-color:#fdfff5;
   padding: 2rem 0;
   margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4.8rem;
 }
 
 h4 {
@@ -31,14 +36,24 @@ h4 {
   font-size: 48px;
 }
 
-.projectLogo {
-  width: 20%;
-  margin: 0 3rem;
+.upperProject {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 4.8rem;
 }
 
-.projectLogoDeckdo {
-  width: 12%;
-  margin-top: 1.4rem;
+.projectLogo-Xinney {
+  width: 300px;
+}
+
+.projectLogo-DrSaab {
+  width: 400px;
+}
+
+.projectLogo-Deckdo {
+  width: 200px;
 }
 
 .subContent-Technologies {
@@ -100,15 +115,29 @@ h4 {
   h4 {
     font-size: 32px;
   }
+
+  .subContent-Projects {
+    gap: 3.8rem;
+  }
   
-  .projectLogo {
-    width: 42%;
-    margin: 0 0.8rem;
+  .upperProject {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3.8rem;
+  }
+  
+  .projectLogo-Xinney {
+    width: 200px;
   }
 
-  .projectLogoDeckdo {
-    margin-top: 1rem;
-    width: 32%;
+  
+  .projectLogo-DrSaab {
+    width: 300px;
+  }
+
+  .projectLogo-Deckdo {
+    width: 150px;
   }
 
   .technologies {
