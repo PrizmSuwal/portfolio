@@ -2,7 +2,6 @@ import React from 'react'
 import './Home.css';
 import Animation from '../../495px-Light_dispersion_conceptual_waves.gif';
 
-
 function Home() {
   return (
     <div id='home'>
