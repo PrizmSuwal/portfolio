@@ -7,38 +7,11 @@
   margin-bottom: 3rem;
 }
 
-h6 {
-  font-family: 'Trebuchet MS', 'Lucinda Sans Unicode', 'Lucinda Grande',
-  'Lucinda Sans', Arial, sans-serif;
-  font-size: 28px;
-}
-
-.img-underConstruction {
-  width: 50%;
-  margin: 2rem;
-}
-
-.subContent-Projects {
-  background-color:#fdfff5;
-  padding: 2rem 0;
-  margin-bottom: 3rem;
-}
-
 h4 {
   font-family: 'Trebuchet MS', 'Lucinda Sans Unicode', 'Lucinda Grande',
   'Lucinda Sans', Arial, sans-serif;
   margin-bottom: 1.5rem;
   font-size: 48px;
-}
-
-.projectLogo {
-  width: 20%;
-  margin: 0 3rem;
-}
-
-.projectLogoDeckdo {
-  width: 12%;
-  margin-top: 1.4rem;
 }
 
 .subContent-Technologies {
@@ -88,27 +61,9 @@ h4 {
   width: 120px;
 }
 
-.tilicho {
-  width: 50%;
-}
 @media only screen and (min-width: 240px) and (max-width: 760px){	
-  h6 {
-    font-size: 24px;
-    padding: 0 1rem;
-  }
-
   h4 {
     font-size: 32px;
-  }
-  
-  .projectLogo {
-    width: 42%;
-    margin: 0 0.8rem;
-  }
-
-  .projectLogoDeckdo {
-    margin-top: 1rem;
-    width: 32%;
   }
 
   .technologies {
@@ -135,10 +90,5 @@ h4 {
 
   .img-technology-right {
     width: 90px;
-  }  
-
-  .tilicho {
-    width: 60%;
-    height: 220px;
   }
 }
