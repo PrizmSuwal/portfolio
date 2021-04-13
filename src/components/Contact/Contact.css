@@ -1,0 +1,45 @@
+.contact-container{
+  background-color: #f0ffff;
+  padding: 2rem 0 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+
+.contact-subscription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  text-align: center;
+}
+
+.contact-quote {
+  font-family: 'Trebuchet MS', 'Lucinda Sans Unicode', 'Lucinda Grande',
+  'Lucinda Sans', Arial, sans-serif;
+  color: black;
+  margin-bottom: 25px;
+  font-size: 18px;
+}
+
+.input-areas{
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-input {
+  padding: 8px 20px;
+  border-radius: 2px;
+  margin-right: 10px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  margin-bottom: 16px;
+  border: 1px solid black;
+}
+
+.contact-input::placeholder {
+  color: #b1b1b1;
+}
+
