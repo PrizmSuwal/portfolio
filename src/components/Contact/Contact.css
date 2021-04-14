@@ -2,15 +2,21 @@
   background-color: #f0ffff;
   padding: 2rem 0 2rem;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-self: center;
+  flex-direction: row;
+  gap: 16rem;
+}
+
+.contact-icon {
+  font-size: 300px;
+  color: #afeeee;
+  margin-left: 18rem;
+  margin-top: 0;
 }
 
 .contact-subscription {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin: 4rem 0;
   color: black;
   text-align: center;
 }
@@ -19,13 +25,13 @@
   font-family: 'Trebuchet MS', 'Lucinda Sans Unicode', 'Lucinda Grande',
   'Lucinda Sans', Arial, sans-serif;
   color: black;
-  margin-bottom: 25px;
-  font-size: 18px;
+  margin-bottom: 42px;
+  font-size: 32px;
 }
 
 .input-areas{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .contact-input {
@@ -37,9 +43,50 @@
   font-size: 18px;
   margin-bottom: 16px;
   border: 1px solid black;
+  width: 340px;
+}
+
+.message {
+  height: 140px;
 }
 
 .contact-input::placeholder {
   color: #b1b1b1;
 }
 
+.input-areas button{
+  border-radius: 18px;
+  width: 150px;
+  background-color: #0abab5;
+  font-size: 18px;
+  height: 45px;
+  border: none;
+  box-shadow: 5px 10px 18px #d3d3d3;
+  margin-top: 15px;
+}
+
+.input-areas button:hover{
+  background-color: black;
+  color:#0abab5;
+}
+
+
+@media only screen and (min-width: 340px) and (max-width: 760px){	
+  .contact-icon{
+    display: none;
+  }
+
+  .contact-subscription {
+    margin:auto;
+  }
+
+  .contact-input {
+    margin: auto;
+    margin-bottom: 18px;
+    width: 220px;
+  }
+
+  .message {
+    height: 100px;
+  }
+}
