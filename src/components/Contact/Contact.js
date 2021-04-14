@@ -4,13 +4,17 @@ import './Contact.css';
 function contact() {
   return (
     <div className='contact-container' id='contactme'>
+      <div className='contact-icon'>
+        <i className="fas fa-phone-alt"></i>
+      </div>
       <div className='contact-subscription'>
-        <span className='contact-quote'> Get in Touch </span>
+        <p className='contact-quote'> Get in Touch </p>
           <div className='input-areas'>
             <form>
-              <input type='email' name='email' placeholder='Your email' className='contact-input'/>
-              <br></br><input type='text' name='message' placeholder='Your message' className='contact-input'/>
-              <br></br><button buttonStyle='btn--outline'>Send</button>
+              <input type='text' name='name' placeholder='Your name' className='contact-input'/>
+              <br></br><input type='email' name='email' placeholder='Your email' className='contact-input'/>
+              <br></br><input type='text' name='message' placeholder='Your message' className='contact-input message'/>
+              <br></br><button href='/'>Contact Me</button>
             </form>
           </div>       
       </div>
