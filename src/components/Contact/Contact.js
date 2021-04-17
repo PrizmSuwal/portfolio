@@ -9,14 +9,15 @@ function contact() {
       </div>
       <div className='contact-subscription'>
         <p className='contact-quote'> Get in Touch </p>
-          <div className='input-areas'>
-            <form>
-              <input type='text' name='name' placeholder='Your name' className='contact-input'/>
-              <br></br><input type='email' name='email' placeholder='Your email' className='contact-input'/>
-              <br></br><input type='text' name='message' placeholder='Your message' className='contact-input message'/>
-              <br></br><button href='/'>Contact Me</button>
-            </form>
-          </div>       
+        <p className='contact-subquote'> Have a question or want to collaborate?</p>
+        <div className='input-areas'>
+          <form>
+            <input type='text' name='name' placeholder='Your name' className='contact-input'/>
+            <br></br><input type='email' name='email' placeholder='Your email' className='contact-input'/>
+            <br></br><input type='text' name='message' placeholder='Your message' className='contact-input message'/>
+            <br></br><button href='/'>Contact Me</button>
+          </form>
+        </div>       
       </div>
     </div>
   )
