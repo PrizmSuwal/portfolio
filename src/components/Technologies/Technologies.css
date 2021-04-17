@@ -61,6 +61,14 @@ h4 {
   width: 120px;
 }
 
+.img-technology-postman {
+  width: 110px;
+}
+
+.img-technology-pug {
+  width: 140px;
+}
+
 @media only screen and (min-width: 240px) and (max-width: 760px){	
   h4 {
     font-size: 32px;
@@ -90,5 +98,13 @@ h4 {
 
   .img-technology-right {
     width: 90px;
+  }
+
+  .img-technology-postman {
+    width: 80px;
+  }
+  
+  .img-technology-pug {
+    width: 100px;
   }
 }
