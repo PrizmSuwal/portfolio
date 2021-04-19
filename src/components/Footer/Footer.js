@@ -1,11 +1,15 @@
 import './Footer.css';
 import React from 'react'
+import logo from '../../photos/logo.png';
 
 function Footer() {
   return (
     <div className='footer-container'>
       <div className='social-media-wrap'>
-        <p>Follow me on</p>
+        <a href='/'>
+          <img src={logo} alt='PRISM'></img>
+        </a>
+        <p>Leveling up one day at a time. </p>
         <div className='social-icons'>
           <a className='social-icon-link facebook'  aria-label='Facebook' href='https://www.facebook.com/suwal.prism/' target='_blank' rel='noreferrer'><i class='fab fa-facebook fa-3x'></i></a>
           <a className='social-icon-link instagram' aria-label='Instagram' href='https://www.instagram.com/prism_suwal/' target='_blank' rel='noreferrer'><i class='fab fa-instagram fa-3x'></i></a>
