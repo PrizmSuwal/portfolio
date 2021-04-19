@@ -75,6 +75,7 @@ function Navbar() {
                   smooth={true} 
                   offset={0} 
                   duration={500}
+                  className='contactME'
                 >
                   Contact me
                 </Link>
