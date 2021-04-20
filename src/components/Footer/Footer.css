@@ -35,7 +35,7 @@
   display:flex;
   justify-content: space-between;
   align-items:center;
-  width: 250px;
+  width: 300px;
   font-size: 12px;
 }
 
@@ -44,7 +44,7 @@
 }
 
 .social-icon-link:hover {
-  color:#004d4d;
+  color: 	whitesmoke;
 }
 
 .website-rights {
@@ -68,7 +68,9 @@
   }
 
   .social-icons {
-    width: 200px;
+    width: 230px;
+    font-size: 10px;
+    margin-bottom: 0.8rem;
   }
 
   .website-rights {
