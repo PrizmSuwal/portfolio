@@ -10,7 +10,7 @@
   font-size: 300px;
   color: #afeeee;
   margin-left: 18rem;
-  margin-top: 0;
+  margin-top: 4rem;
 }
 
 .contact-subscription {
@@ -65,7 +65,7 @@
 .input-areas button{
   border-radius: 18px;
   width: 150px;
-  background-color: #0abab5;
+  background-color: #30d5c8;
   font-size: 18px;
   height: 45px;
   border: none;
@@ -75,7 +75,7 @@
 
 .input-areas button:hover{
   background-color: black;
-  color:#0abab5;
+  color:#30d5c8;
 }
 
 
