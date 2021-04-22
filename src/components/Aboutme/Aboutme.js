@@ -1,47 +1,16 @@
 import React from 'react'
 import './Aboutme.css';
-import Nepal from '../../photos/tilicho.jpeg';
-import Australia from '../../photos/Manly.jpg';
-// import Me1 from '../../photos/Harbour.jpg';
-// import Me2 from '../../photos/Laperouse.jpg';
-// import Me3 from '../../photos/Patan.jpg';
+import ME from '../../photos/Manlyk.jpg';
 
 function Aboutme() {
   return (
     <div id = 'about'>
-      <div className='content'>
-        <h4>Prism Suwal</h4>
-        <h6>I am a freelancer. Thank you.</h6>
-      </div>
       <div className="container-lg my-3">
-        <div id="myCarousel" className="carousel slide" data-ride="carousel">
-          <ol className="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            {/* <li data-target="#myCarousel" data-slide-to="2"></li> */}
-          </ol>
-          <div className="carousel-inner">
-              <div className="carousel-item active">
-                <img className='img-Aboutme' src={Nepal} alt="First Slide" />
-              </div>
-              {/* <div className="carousel-item">
-                <div className='column3'>
-                  <img src={Me1} alt="Second Slide - pt1" />
-                  <img src={Me2} alt="Second Slide - pt2" />
-                  <img src={Me3} alt="Second Slide - pt3" />
-                </div>
-              </div> */}
-              <div className="carousel-item">
-                <img className='img-Aboutme' src={Australia} alt="Third Slide" />
-              </div>
-          </div>
-          <a className="carousel-control-prev" href="#myCarousel" data-slide="prev">
-              <span className="carousel-control-prev-icon"></span>
-          </a>
-          <a className="carousel-control-next" href="#myCarousel" data-slide="next">
-              <span className="carousel-control-next-icon"></span>
-          </a>
-        </div>
+        <img src={ME} alt='Prism Suwal'></img>
+      </div>
+      <div className='content-aboutme'>
+        <p>I am Prism, a Web Developer working remotely for DeckDo Inc. on their subsidiary product in Texas. </p>
+        <h6>I love backend development and officially working since past year. I am naturally curious and prefer to keep learning and do interesting things. </h6>
       </div>
     </div>
   )
