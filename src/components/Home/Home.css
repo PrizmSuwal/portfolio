@@ -18,9 +18,109 @@ h6 {
   margin: 2rem;
 }
 
+.home{
+  display: none;
+}
+
+.tilicho {
+  width: 50%;
+}
+
+.carousel{
+  margin-top: 20px;
+}
+
+.carousel-item{
+  text-align: center;
+  min-height: 280px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  border: none;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after {
+  content: '>';
+  font-size: 75px;
+  color: #0abab5;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 75px;
+  color: #0abab5;
+}
+
+.carousel-indicators li {
+  display: inline-block;
+  width: 48px;
+  height: 5px;
+  border: none;
+  background-color: #036464;
+}
+
+.carousel-indicators .active {
+  width: 48px;
+  height: 5px;
+  background-color:#afeeee;
+}
+
+.img-Aboutme {
+  width: 75%;
+  height: 507px;
+  margin-bottom: 35px;
+}
+
+.column3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.column3 img {
+  width: 33%;
+  padding: 1.8rem;
+}
+
 @media only screen and (min-width: 240px) and (max-width: 760px){	
   h6 {
     font-size: 24px;
     padding: 0 1rem;
+  }
+
+  .tilicho {
+    width: 60%;
+    height: 220px;
+  }
+  
+  .carousel-item{
+    text-align: center;
+    min-height: 280px; 
+  }
+
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    background-size: 100%, 100%;
+    border: none;
+    background-image: none;
+  }
+  
+  .carousel-control-next-icon:after {
+    font-size: 50px;
+  }
+  
+  .carousel-control-prev-icon:after {
+    font-size: 50px;
+  }
+
+  .img-Aboutme {
+    width: 70%;
+    height: 180px;
+    margin-top: 30px;
+    margin-bottom: 0px;
   }
 }
