@@ -6,8 +6,7 @@
 nav {
   background-color: white;
   height: 5rem;
-  box-shadow: 3px 5px 15px #d3f8f8;
-
+  box-shadow: 3px 5px 15px #cefaf6;
 }
 
 .navbar-brand {
@@ -48,7 +47,7 @@ nav ul li {
 }
 
 .navbar-nav > li > a:hover {
-  border-top: 0.1875rem solid black;
+  border-top: 0.1875rem solid #30d5c8;
 }
 
 .contactME:hover {
@@ -56,9 +55,10 @@ nav ul li {
   color: black;
   text-decoration: none;
   border: 0.1875px solid #30d5c8;
+
 }
 
-.contactME:active ,.contactME.active:hover {
+.contactME:active ,.contactME.active:hover{
   background-color: #30d5c8;
   color: black;
   text-decoration: none;
@@ -77,7 +77,7 @@ nav ul li {
   }
 
   nav {
-    opacity: 0.9;
+    opacity: 0.93;
   }
 
   .navbar-brand {
@@ -96,7 +96,7 @@ nav ul li {
   }
 
   .navbar-nav > li > a:hover {
-    border-top: 0.1rem solid black;
+    border-top: 0.1rem solid #30d5c8;
   }
 
   .contactME:hover{
