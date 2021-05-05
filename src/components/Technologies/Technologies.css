@@ -13,14 +13,18 @@ h4 {
 
 .technologies {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
   align-items: center;
   justify-content: center;
-  margin: 3rem 6rem 0;
+  margin: 3rem 10rem 0;
+}
+
+.technologyImg {
+  padding: 0rem;
 }
 
 .technologyIcon {
-  font-size: 100px;
+  font-size: 120px;
   padding: 1rem;
 }
 
@@ -41,16 +45,16 @@ h4 {
 }
 
 .img-technology {
-  width: 200px;
+  width: 220px;
   padding: 0.4rem;
 }
 
 .img-technology-right {
-  width: 100px;
+  width: 120px;
 }
 
 .img-technology-pug {
-  width: 120px;
+  width: 140px;
 }
 
 @media only screen and (min-width: 240px) and (max-width: 760px){	
