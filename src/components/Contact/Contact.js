@@ -15,7 +15,8 @@ function contact() {
             <input type='text' name='name' placeholder='Your name' className='contact-input'/>
             <br></br><input type='email' name='email' placeholder='Your email' className='contact-input'/>
             <br></br><input type='text' name='message' placeholder='Your message' className='contact-input message'/>
-            <br></br><button href='/'>Contact Me</button>
+            <br></br><p className='contact-p'>Contact Me</p>
+            <p className='contact-disabled'>This has been disabled temporarily. KIndly email at prizmsuwal@gmail.com</p>
           </form>
         </div>       
       </div>
