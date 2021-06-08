@@ -2,7 +2,6 @@ import React from 'react'
 import './Technologies.css';
 import digitalOcean from '../../photos/1200px-DigitalOcean_logo.svg.png';
 import postman from '../../photos/postman-logo-F43375A2EB-seeklogo.com.png';
-import mySql from '../../photos/mysql.png';
 
 function Technologies() {
   return (
@@ -26,7 +25,7 @@ function Technologies() {
             <i className="fab fa-react technologyIcon"></i>
           </div>
           <div className='technologyImg'>
-            <img className='img-technology' alt='MongoDB' src='https://webassets.mongodb.com/_com_assets/cms/mongodb_atlas-h0ai1yctwo.svg' ></img>
+            <img alt='MongoDB' src='https://cdn4.iconfinder.com/data/icons/logos-3/512/mongodb-2-200.png' ></img>
           </div>
           <div className='technologyImg'>
             <img className='img-technology' alt='Jquery' src='https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/JQuery_logo.svg/330px-JQuery_logo.svg.png' ></img>
@@ -35,7 +34,7 @@ function Technologies() {
             <img className='img-technology-right'  alt='Mocha' src='https://camo.githubusercontent.com/58045a79a69afea4cab1cea6def6d911fba3956cf5fd683addf41c032aa64088/68747470733a2f2f636c6475702e636f6d2f78465646784f696f41552e737667'></img>
           </div>
           <div className='technologyImg'>
-            <img className='img-technology-right' alt='MySql' src={mySql}></img>
+            <img alt='MySql' src='https://cdn4.iconfinder.com/data/icons/logos-3/181/MySQL-128.png'></img>
           </div>
           <div className='technologyImg'>
             <img className='img-technology-pug' alt='Pug JS' src='https://camo.githubusercontent.com/2eb688a747805c9acd144faf728c8a30f86fc4ca5fb39e6528232f0372151364/68747470733a2f2f63646e2e7261776769742e636f6d2f7075676a732f7075672d6c6f676f2f656563343336636565386664396431373236643738333963626539396431663639343639326330632f5356472f7075672d66696e616c2d6c6f676f2d5f2d636f6c6f75722d3132382e737667' ></img>
