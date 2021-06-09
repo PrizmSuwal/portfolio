@@ -25,7 +25,7 @@ function Technologies() {
             <i className="fab fa-react technologyIcon"></i>
           </div>
           <div className='technologyImg'>
-            <img alt='MongoDB' src='https://cdn4.iconfinder.com/data/icons/logos-3/512/mongodb-2-200.png' ></img>
+            <img className='img-technology' alt='MongoDB' src='https://webassets.mongodb.com/_com_assets/cms/mongodb_atlas-h0ai1yctwo.svg' ></img>
           </div>
           <div className='technologyImg'>
             <img className='img-technology' alt='Jquery' src='https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/JQuery_logo.svg/330px-JQuery_logo.svg.png' ></img>
